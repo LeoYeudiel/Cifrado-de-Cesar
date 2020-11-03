@@ -2,6 +2,7 @@
 function Cifradov() {
     var y=document.getElementById("semilla").value;
     var txt=document.getElementById("txt").value;
+    var txt= txt.toLowerCase()
     var textov=/^[a-zñ\s]+$/
     var numerov=/^[0-9\s]+$/
     if (txt.length>=1) {
@@ -19,6 +20,7 @@ function Cifradov() {
 function Decifradov() {
     var y=document.getElementById("semilla").value;
     var txt=document.getElementById("txt").value;
+    var txt= txt.toLowerCase()
     var textov=/^[a-zñ\s]+$/
     var numerov=/^[0-9\s]+$/
     if (txt.length>=1) {
@@ -37,6 +39,7 @@ function Decifradov() {
 function Cifradovmej() {
     var y=document.getElementById("semilla").value;
     var txt=document.getElementById("txt").value;
+    var txt= txt.toLowerCase()
     var textov=/^[a-zñ\s]+$/
     var numerov=/^[0-9\s]+$/
     if (txt.length>=1) {
@@ -54,6 +57,7 @@ function Cifradovmej() {
 function Decifradovmej() {
     var y=document.getElementById("semilla").value;
     var txt=document.getElementById("txt").value;
+    var txt= txt.toLowerCase()
     var textov=/^[a-zñ\s]+$/
     var numerov=/^[0-9\s]+$/
     if (txt.length>=1) {
