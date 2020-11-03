@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css3/estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cifrado de Cesar Normal y Mejorado</h1>
+    <script src="js/cesarav.js"></script>
+    <h4>Introduzca el texto a cifrar</h4>
+    <textarea name="" id="txt" cols="30" rows="10"></textarea><br>
+    <h4>Introduzca la semilla o el numero de desplazamiento</h4>
+    <input type="number" name="" id="semilla" min="0" class="numero">
+
+    <h2>Cifrado Normal</h2>
+    <h4>Formula Cifrado:x+t mod 27</h4>
+    <input type="button" value="Cifrar" onclick="Cifradov()" class="act">
+    <input type="button" value="Decifrar" onclick="Decifradov()" class="act">
+    <h2>Cofrado "Mejorado"</h2>
+    <h4>Formula Cifrado: 11x + y mod 27</h4>
+    <h4></h4>
+    <input type="button" value="Cifrarmej" onclick="Cifradovmej()" class="act">
+    <input type="button" value="Decifrarmej" onclick="Decifradovmej()" class="act">
+    <h2>Resultado</h2>
+    <div id="resultado" class="resul"></div>
+</body>
+</html>
